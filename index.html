@@ -1,0 +1,364 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation | Welcome</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/app.css" />
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+
+
+<body>
+  <div id="container">
+
+    <div class="off-canvas-wrap docs-wrap" data-offcanvas="">
+      <div class="inner-wrap">
+       <div class="sticky fixed" style="background-color:#333333">
+        <div class="large-10 large-centered columns">
+         <nav class="top-bar docs-bar hide-for-small" data-topbar="">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#"> Clickservice.pe </a></h1>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="divider"></li>
+              <li>
+                <a href="acerca.html" class=""> ¿ Cómo Funciona ? </a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="ofertas.html" class=""> Ofertas de Trabajo </a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#" data-reveal-id="loginModal" class=""><i class="fa fa-arrow-circle-right"></i> Ingresar </a>
+              </li>
+              <li class="divider"></li>
+              <li class="has-form">
+                <a href="publica.html" class="small button"> Pide lo que necesitas </a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </div>     <!-- large -->
+    </div> <!-- fixed -->
+
+
+
+
+
+
+
+    <!-- Modal de LOGIN -->
+    <div id="loginModal" class="reveal-modal medium2" data-reveal>
+      <ul class="tabs" data-tab style="width:100%">
+        <li class="tab-title active" style="width:48%"><a href="#panelINGRESAR"><center>Ingresar</center></a></li>
+        <li class="tab-title" style="width:49%"><a href="#panelREGISTRARSE"><center>Registrarse</center></a></li>
+      </ul>
+
+      <div class="tabs-content" >
+        <div class="content active" id="panelINGRESAR">
+          <div class="row">
+            <div class="small-6 columns">
+              <form>
+                <div class="row collapse">
+                  <div class="small-10 columns">
+                    <input type="text" placeholder="example@example.com">
+                  </div>
+                  <div class="small-2 columns">
+                    <span class="postfix" style="font-size:20px"><i class="fa fa-user"></i></span>
+                  </div>
+                </div>
+                <div class="row collapse">
+                  <div class="small-10 columns">
+                    <input type="password" name="password" placeholder="*******">
+                  </div>
+                  <div class="small-2 columns">
+                    <span class="postfix" style="font-size:20px"><i class="fa fa-lock"></i></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                   <input type="radio" name="pokemon" value="Red" id="pokemonRed">
+                   <label for="pokemonRed">Guardar contraseña</label>
+                 </div>
+                 <div class="large-12 columns">
+                   <a href="perfil.html" class="button expand success padding0">Ingresar</a>
+                 </div>
+                 <div class="large-12 columns">
+                   <a href="#" class="button expand padding0 fb-color"><i class="fa fa-facebook"></i> | Ingresar con Facbeook</a>
+                 </div>
+               </div>
+             </form>
+           </div>
+           <div class="small-6 columns text-justify">
+            <br>
+            <center><h4 class="line">Clickservice.pe <br>te cambia la vida</h4></center>
+            <h4><small class="color_b">Comienza a encargar todo lo que necesites a personas cerca de tu localidad y ellos te enviaran sus presupuestos</small></h4>
+            <p><a href="olvido.html"><i class="fa fa-unlock-alt"></i> ¿Olvidé mi contraseña? </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="content" id="panelREGISTRARSE">
+        <div class="row">
+         <div class="small-6 columns">
+          <div class="row">
+           <div class="large-12 columns" style="height:212px">
+             <center><h4 class="line">Hazte la vida<br> más facil</h4></center>
+             <h4><small class="color_b">Regístrate rápido con facebook , y comienza a encontrar personas que necesitan de ti cerca de tu ciudad</small></h4>
+           </div>
+           <div class="large-12 columns" >
+            <a href="#" class="button expand padding0 fb-color">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="small-6 columns">
+       <form>
+        <div class="row">
+          <div class="large-12 columns">
+            <input type="text" placeholder="Nombres" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <input type="text" placeholder="Apellidos" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <input type="text" placeholder="E-mail" />
+          </div>
+        </div>
+        <div class="row collapse">
+          <div class="small-10 columns">
+            <input type="password" name="password" placeholder="*******">
+          </div>
+          <div class="small-2 columns">
+            <span class="postfix" style="font-size:20px"><i class="fa fa-lock"></i></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+           <a href="#" class="button expand success">Registrarme</a>
+         </div>
+       </div>
+     </form>
+   </div>
+ </div>
+</div>
+</div>
+<a class="close-reveal-modal">&#215;</a>
+</div>
+<!--close MODAL LOGIN-->
+
+
+
+
+
+<div class="#"> <!-- fixed de PEQUENO -->
+ <nav class="tab-bar show-for-small" >
+  <a href="#" class="left-off-canvas-toggle menu-icon" aria-expanded="false">
+    <span>Clickservice2</span>
+  </a>
+</nav>
+</div>   <!--  CLOSE fixed de PEQUENO -->
+
+
+
+
+<aside class="left-off-canvas-menu">
+  <ul class="off-canvas-list">
+   <li class="oscu1"><a href="index.html"><i class="fa fa-home"></i> Inicio</a></li>
+   <li class="oscu1"><a href="acerca.html">Cómo Funciona?</a></li>
+   <li class="oscu1"><a href="ofertas.html">Ofertas de trabajo</a></li>
+   <li class="oscu1"><a href="login.html">Ingresar</a></li>
+   <li class="oscu1"><a href="registrarse.html">Registrarse</a></li>
+   <li class="naran"><a href="publica.html">Pide lo que necesitas</a></li>
+ </ul>
+</aside>
+
+
+
+
+
+<section class="main-section">
+  <br>
+  <!-- Encabezado TITULO -->
+  <div class="row margin_top2">
+    <div class="large-12 columns large-centered">
+      <h2 class="text-center margin_bottom4">Lorem ipsum Lores user </h2>
+
+      <h5 class="text-center subheader"> Lorem Lrit in voluptate velit esse
+        cillum dolore anim id est laborum ipsum . </h5>
+
+      </div>
+    </div> <!-- CLOSE encabezado titulo -->
+
+
+
+    <div class="row">
+      <div class="large-8 columns" style="margin-bottom: 7%;background-color:white">
+        <div class="vimeo">
+         <div class="flex-video widescreen vimeo">
+          <iframe src="http://player.vimeo.com/video/117349534" width="350" height="180" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="solicita" >
+       <h3> Lorem Make foundation rock sold </h3>
+       <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco labn
+         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <a href="publica.html" class="button">Comenzar a probar</a>
+       </div>
+     </div>
+   </div>
+
+   <div class="gray" style="background-color:#EDEDED"> <!-- OPEN gray -->
+     <div class="row">
+      <div class="large-12 columns">
+        <div class="pedidos" >
+         <h3 class="text-center"> lorme recent contribuciones </h3>
+         <p class="text-center" style="margin-bottom:4%"> Loremlorem ipsum sndi laaaminun deserunt mollit animuby ipsun Loremlorem ipsum sndi laaaminun deserunt mollit animuby ipsunn</p>
+         <ul class="small-block-grid-5">
+          <li> <a href="publica.html"><img class="th" src="img/01.png"></a><h6 class="text-center marg size2">Clases de Matematicas</h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/02.png"></a><h6 class="text-center marg size2">Limpieza por horas</h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/03.png"></a><h6 class="text-center marg">Clases de Guitarra</h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/04.png"></a><h6 class="text-center marg">Reparacion PC</h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/05.png"></a><h6 class="text-center marg">Diseño gráfico</h6></li>
+        </ul>
+        <ul class="small-block-grid-5">
+          <li class="size2"> <a href="publica.html"><img class="th" src="img/06.png"></a><h6 class="text-center marg">DJ</h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/07.png"></a><h6 class="text-center marg">Barman </h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/08.png"></a><h6 class="text-center marg">Electricista</h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/09.png"></a><h6 class="text-center marg">Profesora particular</h6></li>
+          <li> <a href="publica.html"><img class="th" src="img/10.png"></a><h6 class="text-center marg">Más</h6></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>       <!-- OPEN gray -->
+<br>
+<br>
+<div class="row" style="margin-bottom:20px">
+  <div class="large-6 columns">
+    <h2 class="text-left"><i class="fa fa-arrow-circle-right"></i> Si eres trabajador ...</h2>
+    <p class="text-left"> Lorem ipsum dolo. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborumm dolo. Excepteur sint occaecat cm dolo. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborumupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <a href="registrarse.html" class="button">Me apunto!</a>
+    </div>
+    <div class="large-6 columns">
+      <img src="img/relleno4.png">
+    </div>
+  </div>
+    <hr>
+  <div class="row">
+    <div class="large-6 columns large-centered" >
+      <h2 class="text-center">lorem user ipsim</h2>
+      <p class="text-center"> Lorem ipsum dolo. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborumm dolo. Excepteur sint occaecat cm dolo. Excepteur sint occaecat cupidatat non</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="large-11 columns large-centered" style="background-color:rd" >
+       <div class="row">
+        <div class="large-4 small-12 medium-4 columns">
+          <center><div class="img_icon"><i class="fa fa-sellsy"></i></div><center>
+            <h4>Ahorra Dinero</h4>
+            <p>Dispones de varios presupuestos a tu alcance para que elijas el que mas se ajuste a tus necesidades.</p>
+          </div>
+          <div class="large-4 small-12 medium-4 columns">
+            <center><div class="img_icon"><i class="fa fa-clock-o"></i></div><center>
+              <h4>Ahorra Tiempo</h4>
+              <p>Tienes a tu alcance muchos trabajadores con las características que necesitas dispuesto a ayudarte rápidamente</p>
+            </div>
+            <div class="large-4 small-12 medium-4 columns">
+              <center><div class="img_icon"><i class="fa fa-gift"></i></div><center>
+                <h4>Es Gratis</h4>
+                <p>No te cobramos ningún tipo de comisión por solicitar y contactar trabajadores de confianza</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+      </section>
+      <a class="exit-off-canvas"></a>
+    </div>
+  </div>
+
+
+
+
+  <div class="footer_negro" > <!-- OPEN footer -->
+    <div class="large-10 large-centered columns ">
+      <div class="row footer">
+        <br>
+        <div class="large-3  small-12 columns">
+          <a href="#"><h6 class="sub"><i class="fa fa-question-circle"></i> FAQ</h6></a>
+          <h6 class="sub_footer" > Foundation for Apps is a framework you can use to build better, more polished singls.</h6>
+        </div>
+        <div class="large-3 small-12  columns">
+         <a href="#"><h6 class="sub"><i class="fa fa-bullhorn"></i> COMPARTIR</h6></a>
+         <h6 class="sub_footer"> Lorem ipsum dolor adipisicing elit, sed do eiusmod
+          tempor incididunm.</h6>
+        </div>
+        <div class="large-3 small-12  columns">
+          <a href="#"  data-reveal-id="inboxModal" ><h6 class="sub" ><i class="fa fa-paper-plane"></i> ESCRIBENOS</h6></a>
+          <h6 class="sub_footer">Lorem ipsum dolor sit amet, conipisicing elit, sed do eiusmod
+            t laborum.</h6>
+          </div>
+          <div class="large-3 small-12 columns">
+            <div class="row">
+              <div class="small-3 columns text-center icon_sociales white"><a href=""><i class="fa fa-facebook-square"></a></i></div>
+              <div class="small-3 columns text-center icon_sociales white"><a href=""><i class="fa fa-twitter-square"></a></i></div>
+              <div class="small-3 columns text-center icon_sociales white"><a href=""><i class="fa fa-google-plus-square"></i></a></div>
+              <div class="small-3 columns text-center icon_sociales white"><a href=""><i class="fa fa-youtube-square"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+      </div>
+      <br>
+      <div>    <!-- CLOSE footer -->
+
+
+       <!-- OPEN MODAL  - ESCRIBENOS -->
+       <div id="inboxModal" class="reveal-modal small" data-reveal>
+        <h2>Escribenos.</h2>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <form>
+          <input type="text" placeholder="example@example.com ">
+          <textarea style="resize: none;height: 115px;" placeholder="Escribenos aqui..."></textarea>
+        </form>
+        <a href="#" class="button expand">Enviar</a>
+        <a class="close-reveal-modal">&#215;</a>
+      </div>
+      <!-- CLOSE MODAL  - ESCRIBENOS -->
+
+    </div></div>
+
+    </div>   <!--  CLOSE Container -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+    <script>
+    $(document).foundation();
+    </script>
+  </body>
+  </html>

@@ -1,0 +1,28 @@
+   <div class="small-12 columns">
+                    <ul >
+                      
+                       <li style="background-color:yellow;width:25%;float:left;list-style: none;">
+                          
+                            <p>aaa aaaaaaa aaaaaa aaaaa aaa </p>
+                         
+                       </li>
+                       
+
+                       <li style="background-color:green;width: 50% !important;float:left;list-style: none;">
+                            
+                              <h3 class="turquesa"> bbbbbb bbbbb  b bbbbbbbb bbbbbbb bbbbbbb bbbb</h3>
+                                 <p> bbbbbb bbbbb  b bbbbbbbb bbbbbbb bbbbbbb bbbbbbbb bbbbbbb bbb bbbbb bbbbbb bbbbb  b bbbbbbbb bbbbbbb bbbbbbb bbbbbbbb bbbbbbb bbb bbbb e ver</p>
+                          
+                       </li>
+
+                        <li style="background-color:blue;width:25%;float:left;list-style: none;">
+                            
+                              <h3 class="turquesa">lcccccccccccccc </h3>
+                                 <p>ccccc ccc cc cccc cccc cccc ccccccc)</p>
+                          
+                       </li>
+
+                    </ul>
+                    
+                    <hr class="dashed">
+                 </div>
